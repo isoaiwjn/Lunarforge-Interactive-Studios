@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunarForge Interactive Studios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background: #2d2d2d;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f0f0f0;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+        .services, .games {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service, .game {
+            background-color: #444;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: left;
+        }
+        footer {
+            background-color: #2d2d2d;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #333;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ffd700;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #f0e68c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>LunarForge Interactive Studios</h1>
+        <p>Empoderando la creatividad de los desarrolladores indie</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#games">Juegos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Bienvenidos a LunarForge Interactive Studios</h2>
+        <p>Somos una empresa dedicada a apoyar a desarrolladores indie, ofreciendo educación, asesoría y una plataforma para la venta de videojuegos innovadores.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Cursos de Desarrollo de Videojuegos</h3>
+                <p>Aprende desde la programación hasta el diseño y la creación de videojuegos con nuestros cursos interactivos.</p>
+            </div>
+            <div class="service">
+                <h3>Asesoría Personalizada</h3>
+                <p>Recibe mentoría y orientación para mejorar tu proyecto de videojuego con nuestros expertos en la industria.</p>
+            </div>
+            <div class="service">
+                <h3>Recursos para Desarrolladores</h3>
+                <p>Accede a herramientas, tutoriales y recursos útiles para mejorar tus habilidades y avanzar en el desarrollo de tus proyectos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games">
+        <h2>Juegos Disponibles</h2>
+        <div class="games">
+            <div class="game">
+                <h3>Lunar Adventure</h3>
+                <p>Un juego de aventuras donde exploras mundos misteriosos. Disponible en varias plataformas.</p>
+                <button>Comprar Ahora</button>
+            </div>
+            <div class="game">
+                <h3>Stellar Escape</h3>
+                <p>Un juego de acción y estrategia ambientado en el espacio. ¡Escapa de la galaxia y enfrenta desafíos únicos!</p>
+                <button>Comprar Ahora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o deseas más información sobre nuestros cursos, juegos o servicios, ¡contáctanos!</p>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+                <textarea placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 LunarForge Interactive Studios. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
